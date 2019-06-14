@@ -11,8 +11,7 @@ class Student
   end
 
   def self.all
-    SELECT *
-  FROM student
+    SELECT * FROM student
   end
 
   def self.find_by_name(name)
