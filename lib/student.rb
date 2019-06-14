@@ -5,8 +5,8 @@ class Student
    new_student = self.new   
   
   new_student.id = row[0]
-  new_naame =  row[1]
-   = row[2]
+  new_student.name =  row[1]
+  new_student.grade = row[2]
   student
   end
 
