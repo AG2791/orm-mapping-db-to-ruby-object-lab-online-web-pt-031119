@@ -2,11 +2,11 @@ class Student
   attr_accessor :id, :name, :grade
 
   def self.new_from_db(row)
-   n = self.new   
+   new_student = self.new   
   
-  student.id = row[0]
-  student.name =  row[1]
-  student.grade = row[2]
+  new_student.id = row[0]
+  new_naame =  row[1]
+   = row[2]
   student
   end
 
