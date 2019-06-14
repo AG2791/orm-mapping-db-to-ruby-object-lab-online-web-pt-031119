@@ -88,7 +88,7 @@ def self.students_below_12th_grade
 end
 
 
-def self.all_students_in_grade_9
+def self.first
     sql = <<-SQL
       SELECT *
       FROM students
